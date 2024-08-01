@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Captura - Captação de Leads e Planos de Assinatura</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Bem-vindo à nossa Página de Captura</h1>
+    <p>Preencha o formulário abaixo para se conectar conosco</p>
+  </header>
+
+  <main class="container my-5">
+    <!-- Captação de Leads -->
+    <section id="captacao-leads" class="mb-5">
+      <h2 class="text-center mb-4">Captação de Leads</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planos de Assinatura -->
+    <section id="planos-assinatura" class="mb-5">
+      <h2 class="text-center mb-4">Planos de Assinatura</h2>
+      <div class="row">
+        <!-- Plano Gratuito -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header bg-success text-white text-center">
+              Gratuito
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">R$ 0/mês</h5>
+              <p class="card-text">Resolução Full HD e Contém Propagandas.</p>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">1 usuário</li>
+                <li class="list-group-item">Acesso completo</li>
+                <li class="list-group-item">Suporte via e-mail</li>
+              </ul>
+              <a href="#" class="btn btn-success">Assinar</a>
+            </div>
+          </div>
+        </div>
+        <!-- Plano Individual -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header bg-primary text-white text-center">
+              Individual
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">R$ 29,90/mês</h5>
+              <p class="card-text">Resolução 4K e Sem Propagandas.</p>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">1 usuário</li>
+                <li class="list-group-item">Acesso completo</li>
+                <li class="list-group-item">Suporte prioritário</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Assinar</a>
+            </div>
+          </div>
+        </div>
+        <!-- Plano Família -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header bg-warning text-white text-center">
+              Plano Família
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">R$ 49,90/mês</h5>
+              <p class="card-text">5 Telas, Resolução 4K e Sem Propagandas.</p>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">Até 5 usuários</li>
+                <li class="list-group-item">Acesso completo</li>
+                <li class="list-group-item">Suporte prioritário e dedicado</li>
+              </ul>
+              <a href="#" class="btn btn-warning">Assinar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
